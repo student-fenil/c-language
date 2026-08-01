@@ -1,0 +1,2 @@
+gcc "file.c" -o udf
+.\udf.exe
