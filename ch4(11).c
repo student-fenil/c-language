@@ -18,8 +18,6 @@ int main()
     return 0;
 }
 
-
-
 /*
 output
 i is :0
