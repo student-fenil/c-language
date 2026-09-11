@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main()
+{
+    int product=1;
+
+    for (int i = 1; i <= 10; i++)
+    {
+       product*=i;
+       printf("%d = %d\n",i,product);
+    }
+    
+    return 0;
+}
+
+
+
+/*
+output
+1 = 1
+2 = 2
+3 = 6
+4 = 24
+5 = 120
+6 = 720
+7 = 5040
+8 = 40320
+9 = 362880
+10 = 3628800
+*/
